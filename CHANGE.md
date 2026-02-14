@@ -44,6 +44,19 @@
 
 
 ---
+## 3.11.0 - 2026-2-14
+
+#### 优化 💪
+- ParallelogramEntity增加isRect参数可以限定为角度是90度的矩形
+- mars3d-cesium库升级到[v1.138](https://github.com/CesiumGS/cesium/releases/tag/1.138) 
+
+#### 修复 🐞
+- Gif时序点编辑时无法拾取编辑第一个位置
+- 地形夸张时贴地点计算时未贴夸张高度
+- DivGraphic时序点编辑异常
+
+
+
 --- 
 ## 3.10.11 - 2025-12-30
 #### 优化 💪 

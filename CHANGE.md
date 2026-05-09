@@ -44,6 +44,19 @@
 
 
 ---
+## 3.11.3 - 2026-5-10
+#### 优化 💪
+- GeoJsonLayer的buildings参数优化，支持polygonC类型和属性字段支持模版字符串
+- FrustumPrimitive增加getFarPlanePositions方法
+- WmsLayer图层queryParameters自动带入parameters的cql_filter参数
+- mars3d-cesium库升级到[v1.141](https://github.com/CesiumGS/cesium/releases/tag/1.141) 
+
+#### 修复 🐞
+- FrustumPrimitive的getRayEarthPositions方法导出坐标有偏差
+- PolygonEntity多环面toGeoJSON未正确导出孔洞坐标
+
+
+
 ## 3.11.2 - 2026-4-8
 #### 新增 🌟
 - 新增HollowCylinder中空圆柱体矢量对象

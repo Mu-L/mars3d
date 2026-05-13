@@ -44,11 +44,12 @@
 
 
 ---
-## 3.11.3 - 2026-5-10
+## 3.11.3 - 2026-5-13 
 #### 优化 💪
 - GeoJsonLayer的buildings参数优化，支持polygonC类型和属性字段支持模版字符串
 - FrustumPrimitive增加getFarPlanePositions方法
 - WmsLayer图层queryParameters自动带入parameters的cql_filter参数
+- DivGraphic支持drawShow参数控制标绘时不显示本身
 - mars3d-cesium库升级到[v1.141](https://github.com/CesiumGS/cesium/releases/tag/1.141) 
 
 #### 修复 🐞
